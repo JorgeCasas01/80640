@@ -1,4 +1,4 @@
-
+import './MiFieldSet.css'
 
 function MiFieldSet(props){
     const {titulo,txt1,txt2} = props
@@ -11,6 +11,7 @@ function MiFieldSet(props){
                     <label htmlFor={txt2}>{txt2}</label>
                     <input type="text" id={txt2}></input>
             </fieldset>
+            
         </>
     )
 }
